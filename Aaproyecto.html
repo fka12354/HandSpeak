@@ -8,8 +8,12 @@
     <title>Handspeak</title>
 </head>
 </body>
-    <div class="texto-centrado">
-        <h1>Traducciones</h1>
+<div class="texto-centrado">
+    <h1>Traducciones</h1>
+</div>
+<button onclick="Inicio('Inicio')" style="width: 100px;">Inicio</button>
+<div class="texto-centrado">
+        <hr>
         <div id="menu">
             <button onclick="SeleccionarOpcion('Abril')">Abril<hr><img src="Fotos cortas/Abril.jpg" width="250"></button>
             <button onclick="SeleccionarOpcion('Agosto')">Agosto<hr><img src="Fotos cortas/Agosto.jpg" width="260"></button>
@@ -83,5 +87,12 @@
         </div>
     </div>
 <script src="java.js"></script>
+<script>
+function Inicio(Inicio) {
+  if (Inicio === "Inicio") {
+    window.location.href = "Index.html";
+  }
+  }
+</script>
 </body>
 </html>
