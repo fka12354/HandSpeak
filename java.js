@@ -139,8 +139,8 @@ function SeleccionarOpcion(Opcion) {
     window.location.href = "Hijo.html"; 
   }  
 }
-function Inicio(Inicio) {
-  if (Inicio === "Inicio") {
+function Index(Opcion) {
+  if (Opcion === "Inicio") {
     window.location.href = "Index.html";
   }
   }
