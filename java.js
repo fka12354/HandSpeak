@@ -141,6 +141,6 @@ function SeleccionarOpcion(Opcion) {
 }
 function Index(Opcion) {
   if (Opcion === "Inicio") {
-    window.location.href = "Index.html";
+    window.location.href = "index.html";
   }
   }
